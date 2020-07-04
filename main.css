@@ -112,3 +112,24 @@ nav {
     transform: translateY(-50%);
     z-index: 1;
 }
+
+.controls {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3 {
+    margin: 15px 0;
+    color: #fff;
+}
+
+#upBtn {
+    width: 15px;
+    cursor: pointer;
+}
+#downBtn {
+    width: 15px;
+    cursor: pointer;
+}
