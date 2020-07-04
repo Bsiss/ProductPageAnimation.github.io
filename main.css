@@ -75,7 +75,13 @@ nav {
     color: white;
 }
 
-.feature
+.feature div {
+    margin-left: 30px;
+}
+
+.feature div p {
+    margin-top: 8px;
+}
 
 .one {
     top: 450px;
@@ -95,4 +101,14 @@ nav {
 .four {
     bottom: 150px;
     right: 350px;
+}
+
+.mobile {
+    /*maybe change to 200px width*/
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left:35%;
+    transform: translateY(-50%);
+    z-index: 1;
 }
