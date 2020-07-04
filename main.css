@@ -55,14 +55,13 @@ nav {
     transform: translateY(-50%)
 }
 
-.circle {
+#circle {
     width: 1000px;
     height: 1000px;
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 50%;
-    background: #ccc;
 }
 
 .feature img {
