@@ -138,6 +138,16 @@ nav {
     cursor: pointer;
 }
 
+#downBtn:hover {
+    width: 25px;
+    cursor: pointer;
+}
+
+#upBtn:hover {
+    width: 25px;
+    cursor: pointer;
+}
+
 .overlay {
     width: 0;
     height: 0;
@@ -148,7 +158,7 @@ nav {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 1;
+    z-index: 4;
 }
 
 .active {
